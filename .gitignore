@@ -1,0 +1,26 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+infra/.terraform-state/
+
+# Local env
+.env
+
+# Database backups
+backups/*.dump
+!backups/.gitkeep
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
